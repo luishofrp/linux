@@ -1,0 +1,12 @@
+sed -i 's/original/nova/g' arquivo
+
+//Parâmetros:
+//"-i" - in-place (define as alterações no arquivo. Se usar um sufixo, cria um backup)
+//"s" - substituição
+//"original" - a palavra a ser substituída
+//"nova" - a nova palavra que vai substituir a antiga
+//"g"- global (todo arquivo)
+//"arquivo" - nome do arquivo
+
+//Ajuda
+sed --help
